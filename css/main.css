@@ -1,14 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+
+/* Body */
 body{
+	background-image: url("../img/background.jpg");
 	font-family: 'Lato';
 	font-size: 18px;
 	font-weight: 300;
-	background-image: url("essential-html-css/img/background.jpg");
 	background-size: cover; 
-	background-attachment:;
+	background-attachment:fixed;
 }
 
+/* HyperLinks */
 a{
   text-decoration: none;
   color: #0000AA;
@@ -21,6 +24,7 @@ input:focus {
   color:#0000EE;
 }
 
+/* Headers */
 .headers {
   font-family:'Raleway';
   font-weight:300;
@@ -28,7 +32,8 @@ input:focus {
 
 h1 {
   font-size:300%;
-  margin: 0px 0px 0px 0px;;
+  color:#FFFFFF;
+  margin: 0px;
 }
 
 h2 {
@@ -40,13 +45,60 @@ h2, h3 {
   color:#505050;
 }
 
+/* Main Page Content */
 main {
   margin-left:30%;
   margin-top:20px;
   margin-bottom:20px;
   margin-right:20px;
-  background-image:url("essential-html-css/img/ricepaper_v3.png");
-  background-size: cover;
+  background-image:url("../img/ricepaper_v3.png");
+  background-size: contain;
+  opacity: 0.9;
+}
+
+/* Page Header */
+#page-header {
+  padding: 1em;
+  background-color:#FA5A0F;
+  border-bottom:5px solid #EA4A00;
+  color: #EEEEEE;
+  margin:0px;
+  }
+}
+
+/* General Info */
+#general-info {
+  padding: 1em;
+}
+
+/* Menu */
+#menu {
+  padding: 1em;
+  background-color: rgba(207,205,140,0.5);
+}
+
+dt {
+  font-weight:400;
+}
+
+dd{
+  font-size:80%;
+  font-style:italic;
+  margin-left:1em;
+  margin-bottom:1em;
+}
+
+/* About Us */
+#about-us {
+  padding:1em;
+}
+
+/* Page Footer*/
+#page-footer {
+  padding:1em;
+  background-color:#FC892F;
+  border-top:5px solid #EC791F;
+  text-align:right;
 }
 
 
